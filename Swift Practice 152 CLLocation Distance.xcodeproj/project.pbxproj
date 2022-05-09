@@ -11,6 +11,8 @@
 		2D2371432827F5D9000CDE08 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2371422827F5D9000CDE08 /* ContentView.swift */; };
 		2D2371452827F5DA000CDE08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D2371442827F5DA000CDE08 /* Assets.xcassets */; };
 		2D2371482827F5DA000CDE08 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D2371472827F5DA000CDE08 /* Preview Assets.xcassets */; };
+		2D23714F2827F605000CDE08 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D23714E2827F605000CDE08 /* Location.swift */; };
+		2D2371512827F618000CDE08 /* LocationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2371502827F618000CDE08 /* LocationViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		2D2371422827F5D9000CDE08 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2D2371442827F5DA000CDE08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2D2371472827F5DA000CDE08 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2D23714E2827F605000CDE08 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		2D2371502827F618000CDE08 /* LocationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				2D2371402827F5D9000CDE08 /* Swift_Practice_152_CLLocation_DistanceApp.swift */,
 				2D2371422827F5D9000CDE08 /* ContentView.swift */,
+				2D2371502827F618000CDE08 /* LocationViewModel.swift */,
+				2D23714E2827F605000CDE08 /* Location.swift */,
 				2D2371442827F5DA000CDE08 /* Assets.xcassets */,
 				2D2371462827F5DA000CDE08 /* Preview Content */,
 			);
@@ -138,7 +144,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D2371432827F5D9000CDE08 /* ContentView.swift in Sources */,
+				2D23714F2827F605000CDE08 /* Location.swift in Sources */,
 				2D2371412827F5D9000CDE08 /* Swift_Practice_152_CLLocation_DistanceApp.swift in Sources */,
+				2D2371512827F618000CDE08 /* LocationViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
